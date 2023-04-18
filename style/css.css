@@ -1,0 +1,232 @@
+@media screen and (max-width:499px){
+ /*body{
+      font-size: small;
+      
+   }*/
+   body > header{
+      min-width: 200px;
+   }
+   body>section{
+     
+   }
+.div- h2{
+   text-align: center;
+}
+  header > nav{
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 1px;
+   width: 90px;
+   font-size: 9px;
+   }
+   .encabezado{
+      width: 90px;
+   }
+
+section{
+   min-width: 200px;
+   max-width: 499;
+}
+   section > .div-con-background{
+      display: flex;
+      flex-wrap: wrap;
+      min-width:200px;
+      max-width: 200px;
+      background-color: darkgoldenrod;
+      justify-content: center;
+}
+ .div-con-background>.descrip{
+   width: auto;
+   max-width: 200px;
+   margin-bottom: 5px;
+   margin: solid 4px black;
+ }
+ /*boton receta*/
+ .receta{
+   margin-top: 20px;
+   margin-bottom: 20px;
+ }
+
+ header>.lacocina{
+   font-size: 35px;
+ }
+}
+
+/*------*/
+
+
+body{
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+  
+}
+header {
+  background-color: rgb(116, 58, 29);
+    color: antiquewhite;
+    margin-bottom: 20px;
+    background-image: url(motivobien.png);
+    background-repeat: repeat;
+  }
+
+ 
+    .encabezado { /* nav */
+      color: antiquewhite;
+      background-color: rgb(221, 162, 140);
+      padding: 3px 5px 5px 5px;
+      border-radius: 1px;
+      position: relative;
+      top: 8px;
+      left: 10px;
+      margin-bottom: 4px;
+      text-align: center;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      font-size: medium;
+      text-decoration: none;
+  }
+  .lacocina{ /* titulo header*/
+   font-family: 'Caveat', cursive;
+   font-family: 'Shadows Into Light', cursive;
+   font-size: 60px;
+   padding: 1px;
+   font-weight: 400;  
+   
+}
+
+section{
+
+background-color: blanchedalmond;
+
+}
+
+   div{
+     
+      display: inline-block;
+     
+    } 
+
+.inicio{
+display: flex;
+justify-content: space-between;
+ flex-wrap: wrap;
+ justify-content: space-around;
+}
+
+.inicio>.div-con-background{
+  
+   background-color:  rgb(221, 162, 140);      
+    margin: 5px;
+     width: 300px;
+      height:530px;
+   }
+
+   .descrip{
+   width: 80%;
+   height: 200px;
+   margin-left: 6%;
+   
+}
+   
+.receta{  /* boton receta*/
+      background-color: rgb(145, 51, 4);
+      border-radius: 2px;
+      color: antiquewhite;
+      font-family:cursive;
+      text-decoration: none;
+      text-align: center;
+      padding: 5px 5px; 
+      margin-left: 10%;
+      margin-top: 3%;
+
+   }
+.fondo{
+   width: 100%;
+   height: auto;
+   
+}
+
+img{
+   width:90%;
+   margin: auto;
+   display: block;
+}
+h1{
+   text-align: center;
+    }
+h2{
+   padding-top: 10px;
+   text-align: center;
+
+}
+h3{
+   margin-left: 20px;
+}
+h4{
+   text-align: left;
+margin-left: 20px;
+}
+
+.maps{   
+   color:black;
+}
+
+.foto-receta{
+   width: 50%;
+   margin-bottom: 30px;;
+}
+ table{
+    text-align: left;
+    margin: 5%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+ }
+ th{
+    padding-right: 9px;
+ }
+ .cant{
+    padding-right: 9px;
+ }
+ 
+ .contacto{
+    color: black;
+    background-color: none;
+ }
+ form{
+   margin-left: 10px;
+ }
+form input[type="text"]{
+ padding: 6px;
+ margin: 3px;
+
+}
+ form input[type="number"]{
+   padding: 6px;
+   margin: 3px;
+   }
+
+
+ form input[type=submit]{
+   background-color: rgb(221, 162, 140);
+   border:none;
+   padding: 5px 15px;
+   margin-left: 100px;
+   font-family:cursive;
+   font-size: medium;
+   border-radius: 1px;
+   color: antiquewhite;
+ }
+
+ form input[type="date"]{
+   padding: 6px;
+ margin: 3px;
+ 
+ }
+ label {
+   padding: 12px 12px 12px 0;
+   display: inline-block;
+ }
+footer{
+   
+    background-color: rgb(145, 51, 4);
+    color: antiquewhite;
+    text-align:center;
+ }
