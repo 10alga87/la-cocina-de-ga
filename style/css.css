@@ -3,13 +3,14 @@
    body {
       font-size: small;
       min-width: 200px;
- 
+
    }
-/**/
-    body>section {
+
+   /**/
+   body>section {
       min-width: 200px;
-      
-   } 
+
+   }
 
    .div- h2 {
       text-align: center;
@@ -38,20 +39,41 @@
    header>.lacocina {
       font-size: 35px;
    }
-.sucursales{
-   
-}
-   .sucursales>div{
+
+   .sucursales {
+      display: flex;
+      /* justify-content: space-between; */
+      /* flex-direction: column;
+      display: flex; */
+      justify-content: space-between;
+      flex-wrap: wrap;
+      justify-content: space-around;
+   }
+
+   .sucursales>div {
       display: flex;
       flex-direction: column;
-    
+
    }
-   .sucursales>.maps{
+
+   .sucursales>div>ul {
+      display: block;
+   }
+
+   .sucursales>div>iframe {
+      display: grid;
+      width: 150px;
+      max-height: 100px;
+      /* margin: 5px;
+   } */
+
+   .sucursales>.maps {
       width: 130px;
+      margin: 0;
    }
 
 }
-
+}
 /*------*/
 
 
@@ -69,9 +91,9 @@ header {
    background-repeat: repeat;
 }
 
- /* nav */
+/* nav */
 .encabezado {
-  
+
    color: antiquewhite;
    background-color: rgb(221, 162, 140);
    padding: 3px 5px 5px 5px;
@@ -85,9 +107,10 @@ header {
    font-size: medium;
    text-decoration: none;
 }
+
 /* titulo header*/
 .lacocina {
-   
+
    font-family: 'Caveat', cursive;
    font-family: 'Shadows Into Light', cursive;
    font-size: 60px;
@@ -110,18 +133,18 @@ section {
    justify-content: space-around;
 }
 
-.grid-item{
+.grid-item {
    display: grid;
    background-color: rgb(221, 162, 140);
    margin: 5px;
    width: 300px;
-   height: auto; 
+   height: auto;
 }
 
 .descrip {
-   width: 80%;   
+   width: 80%;
    margin-left: 6%;
-/* text-align: justify; */
+   /* text-align: justify; */
 }
 
 /* boton receta*/
@@ -134,10 +157,10 @@ section {
    text-decoration: none;
    text-align: center;
    padding: 5px 5px;
-   margin:6%;
-   
+   margin: 6%;
 
- 
+
+
 }
 
 .fondo {
@@ -149,15 +172,15 @@ section {
 img {
    width: 90%;
    margin: auto;
-   
+
    display: block;
- 
+
 }
 
 .acercade {
    width: 50%;
-  margin-bottom: 5px; 
-  padding-bottom: 10px;
+   margin-bottom: 5px;
+   padding-bottom: 10px;
 }
 
 h1 {
@@ -178,10 +201,14 @@ h4 {
    text-align: left;
    margin-left: 20px;
 }
-p{margin: 10px;}
+
+p {
+   margin: 10px;
+}
 
 .maps {
    color: black;
+   text-decoration: none;
 }
 
 .foto-receta {
@@ -252,15 +279,16 @@ footer {
    color: antiquewhite;
    text-align: center;
 }
-.sucursales{
+
+.sucursales {
    display: flex;
-  justify-content: center;
+   justify-content: center;
 }
 
-.sucursales>div{
+.sucursales>div {
    display: inline;
-    margin: 10px;
-    background-color:rgb(221, 162, 140) ;
-    padding: 9px;
-    
+   margin: 10px;
+   background-color: rgb(221, 162, 140);
+   padding: 9px;
+
 }
