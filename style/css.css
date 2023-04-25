@@ -38,6 +38,18 @@
    header>.lacocina {
       font-size: 35px;
    }
+.sucursales{
+   
+}
+   .sucursales>div{
+      display: flex;
+      flex-direction: column;
+    
+   }
+   .sucursales>.maps{
+      width: 130px;
+   }
+
 }
 
 /*------*/
@@ -137,11 +149,15 @@ section {
 img {
    width: 90%;
    margin: auto;
+   
    display: block;
+ 
 }
 
 .acercade {
    width: 50%;
+  margin-bottom: 5px; 
+  padding-bottom: 10px;
 }
 
 h1 {
@@ -162,6 +178,7 @@ h4 {
    text-align: left;
    margin-left: 20px;
 }
+p{margin: 10px;}
 
 .maps {
    color: black;
@@ -234,4 +251,16 @@ footer {
    background-color: rgb(145, 51, 4);
    color: antiquewhite;
    text-align: center;
+}
+.sucursales{
+   display: flex;
+  justify-content: center;
+}
+
+.sucursales>div{
+   display: inline;
+    margin: 10px;
+    background-color:rgb(221, 162, 140) ;
+    padding: 9px;
+    
 }
