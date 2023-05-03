@@ -44,7 +44,7 @@
       display: flex;
       /* justify-content: space-between; */
       /* flex-direction: column;
-      display: flex; */
+     */
       justify-content: space-between;
       flex-wrap: wrap;
       justify-content: space-around;
@@ -60,12 +60,14 @@
       display: block;
    }
 
-   .sucursales>div>iframe {
+   div>iframe {
       display: grid;
-      width: 150px;
-      max-height: 100px;
-      /* margin: 5px;
-   } */
+      width: 90%;
+     height: 70%;
+      margin-left: 5%;
+      margin-right: 15%;
+      /* justify-content: center; */
+   } 
 
    .sucursales>.maps {
       width: 130px;
@@ -73,7 +75,7 @@
    }
 
 }
-}
+
 /*------*/
 
 
@@ -283,6 +285,7 @@ footer {
 .sucursales {
    display: flex;
    justify-content: center;
+   width: auto;
 }
 
 .sucursales>div {
@@ -290,5 +293,9 @@ footer {
    margin: 10px;
    background-color: rgb(221, 162, 140);
    padding: 9px;
-
+width: auto;
+}
+iframe{
+   width: auto;
+   justify-content: center;
 }
